@@ -1,18 +1,13 @@
 .header {
     // position: sticky;
     // top: 0;
+    padding-top: 55px;
     z-index: 10;
     min-height: 176px;
     background-color:rgba($color: #fff, $alpha: 0.9);
 }
 
 .navigation {
-    // position: sticky;
-    // top: 0;
-    // z-index: 10;
-    padding: 55px 130px 0;
-    // min-height: 176px;
-    // background-color:#ffffff;
     &__logo {
         width: 106px;
         height: 54px;       

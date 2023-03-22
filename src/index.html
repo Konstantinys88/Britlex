@@ -18,42 +18,44 @@
 <body>
 
     <header class="header">
-        <div class="navigation">
-            <menu>
-                <div class="navigation__wrapper">
-                    <div class="navigation__logo"><img src="img/BritlexLogo.svg" alt="Logo"></div>
-                    <div class="navigation__menu">
-                        <nav class="navigation__nav">
-                            <a class="navigation__nav-a" href="#">Home</a>
-                            <a class="navigation__nav-a" href="#">Skills</a>
-                            <a class="navigation__nav-a" href="#">About US</a>
-                            <a class="navigation__nav-a" href="#">Pricing</a>
-                            <a class="navigation__nav-a" href="#">Contacts</a>
-                        </nav>
+        <div class="container">
+            <div class="navigation">
+                <menu>
+                    <div class="navigation__wrapper">
+                        <div class="navigation__logo"><img src="img/BritlexLogo.svg" alt="Logo"></div>
+                        <div class="navigation__menu">
+                            <nav class="navigation__nav">
+                                <a class="navigation__nav-a" href="#">Home</a>
+                                <a class="navigation__nav-a" href="#">Skills</a>
+                                <a class="navigation__nav-a" href="#">About US</a>
+                                <a class="navigation__nav-a" href="#">Pricing</a>
+                                <a class="navigation__nav-a" href="#">Contacts</a>
+                            </nav>
+                        </div>
+                        <div class="navigation__start-btn">
+                            <button class="btn">Let`s Talk</button>
+                        </div>
                     </div>
-                    <div class="navigation__start-btn">
-                        <button class="btn">Let`s Talk</button>
+                    <div class="hamburger">
+                        <span class="hamburger-span"></span>
+                        <span class="hamburger-span"></span>
+                        <span class="hamburger-span"></span>
                     </div>
-                </div>
-                <div class="hamburger">
-                    <span class="hamburger-span"></span>
-                    <span class="hamburger-span"></span>
-                    <span class="hamburger-span"></span>
-                </div>
-            </menu>
-            <div class="overlay"></div>
+                </menu>
+                <div class="overlay"></div>
+            </div>
         </div>
     </header>
 
-    <div class="get-started">
+    <section class="get-started">
         <div class="container">
             <div class="get-started__wrapper">
                 <div class="get-started__wrapper-left">
                     <div class="get-started__wrapper-header">
-                        <div class="get-started__left-header">Learn <br> Any Foreign Language</div>
+                        <h1 class="get-started__left-header">Learn <br> Any Foreign Language</h1>
                         <div class="get-started__left-img"><img src="img/light-bulb.svg" alt="light"></div>
                     </div>
-                    <div class="get-started__left-text">With our teachers who write a program for each student, you will be able to make your first sketch after the first lesson.</div>
+                    <p class="get-started__left-text">With our teachers who write a program for each student, you will be able to make your first sketch after the first lesson.</p>
                     <button class="get-started__left-btn btn">Get started</button>
                 </div>
                 <div class="get-started__wrapper-right">
@@ -61,7 +63,64 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+
+    <section class="skills">
+        <div class="container">
+            <h2 class="text-h2 skills__text-h2">Skills</h2>
+            <div class="skills__grid">
+                <!-- 1 -->
+                <div class="skills__grid-item speaking">
+                    <div class="skills__grid-img">
+                        <img src="img/speaking.svg" alt="Speaking">
+                    </div>
+                    <div class="skills__grid-content">
+                        <h3 class="skills__grid-header header-h3">Speaking</h3>
+                        <p class="skills__grid-text text-p">Improve your English skills and confidence. Live classes and interactive lessons online. 20% extra free for a limited time only <br> <br> Learn English online and improve your skills through our high-quality courses and resources – all designed for adult language learners.</p>
+                        <button class="btn skills__btn">Learn more</button>
+                    </div>
+                </div>
+                <!-- 2 -->
+                <div class="skills__grid-item writing">
+                    <div class="skills__grid-img">
+                        <img src="img/writing.svg" alt="Writing">
+                    </div>
+                    <div class="skills__grid-content">
+                        <h3 class="skills__grid-header header-h3">Writing</h3>
+                        <p class="skills__grid-text text-p">One of the most important and extensive areas of natural science, the science that 
+                        studies substances, also their composition </p>
+                        <button class="btn skills__btn">Learn more</button>
+                    </div>
+                </div>
+                <!-- 3 -->
+                <div class="skills__grid-item reading">
+                    <div class="skills__grid-img">
+                        <img src="img/reading.svg" alt="Reading">
+                    </div>
+                    <div class="skills__grid-content">
+                        <h3 class="skills__grid-header header-h3">Reading</h3>
+                        <p class="skills__grid-text text-p">perception and response actions of the user
+                            resulting from the use and/or upcoming use 
+                            of the product, system or service</p>
+                        <button class="btn skills__btn">Learn more</button>
+                    </div>
+                </div>
+                <!-- 4 -->
+                <div class="skills__grid-item listening listening">
+                    <div class="skills__grid-img">
+                        <img src="img/listening.svg" alt="Listening">
+                    </div>
+                    <div class="skills__grid-content">
+                        <h3 class="skills__grid-header header-h3">Listening</h3>
+                        <p class="skills__grid-text text-p">Here you can find activities to practise
+                            your listening skills. Listening will help you
+                            to improve your understanding </p>
+                        <button class="btn skills__btn">Learn more</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <footer class="footer">
     </footer>

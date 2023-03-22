@@ -21,15 +21,37 @@ body .container {
   margin: 0 auto;
 }
 
+.text-h2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 80px;
+  color: #000000;
+}
+
+.header-h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 80px;
+  color: #263238;
+}
+
+.text-p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #8F95A5;
+}
+
 .header {
+  padding-top: 55px;
   z-index: 10;
   min-height: 176px;
   background-color: rgba(255, 255, 255, 0.9);
 }
 
-.navigation {
-  padding: 55px 130px 0;
-}
 .navigation__logo {
   width: 106px;
   height: 54px;
@@ -224,4 +246,86 @@ body .container {
   max-width: 661px;
   max-height: 661px;
   padding-bottom: 40px;
+}
+
+.skills {
+  padding-top: 103px;
+  margin-bottom: 200px;
+}
+.skills__text-h2 {
+  text-align: center;
+}
+.skills__grid {
+  position: relative;
+  padding-top: 92px;
+  display: grid;
+  gap: 30px;
+  grid-template-areas: "one two three" "one four four";
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+.skills__grid-item {
+  background: #F5F5F5;
+  border-radius: 10px;
+  padding: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.skills__grid-img img {
+  max-width: 100%;
+}
+.skills__grid-text {
+  width: 100%;
+  max-width: 347px;
+  padding-top: 5px;
+}
+.skills__btn {
+  margin-top: 33px;
+  width: 218px;
+  height: 60px;
+  background: #263238;
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+.speaking {
+  grid-area: one;
+}
+
+.writing {
+  grid-area: two;
+}
+
+.reading {
+  grid-area: three;
+}
+
+.listening {
+  grid-area: four;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.listening .skills__grid-img {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  padding-left: 30px;
 }/*# sourceMappingURL=main.css.map */
