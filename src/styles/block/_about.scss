@@ -1,0 +1,25 @@
+.about {
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__content {
+        margin-top: 70px;
+        width: 100%;
+        max-width: 635px;
+        
+    }
+    &__content-number {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        padding-top: 30px;
+    }
+    &__content-h4 {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 80px;
+        color: #2A3246;
+    }
+}
