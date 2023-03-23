@@ -1,0 +1,42 @@
+.contact {
+    padding-top: 261px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__img {
+        padding-right: 111px;
+    }
+    &__content-p {
+        padding-top: 37px;
+    }
+    &__form {
+        padding-top: 50px;
+        form {
+            display: flex;
+        }
+        input {
+            width: 450px;
+            height: 80px;
+            border: 1px solid #8F95A5;
+            border-radius: 10px;
+            margin-right: 12px;
+            padding-left: 33px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+        }
+        button {
+            width: 264px;
+            height: 80px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 30px;
+            color: #FFFFFF;
+            background: #263238;
+            border-radius: 10px;
+        }
+    }
+}
