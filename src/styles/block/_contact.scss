@@ -37,6 +37,10 @@
             color: #FFFFFF;
             background: #263238;
             border-radius: 10px;
+            &:hover {
+                color: #263238;
+                background: #fff;
+            }
         }
     }
 }
