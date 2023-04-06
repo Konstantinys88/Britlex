@@ -104,7 +104,7 @@ body .container {
 }
 
 .hamburger {
-  position: absolute;
+  position: fixed;
   display: none;
   top: 45px;
   right: 38px;
